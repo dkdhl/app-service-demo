@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api")
+//@RequestMapping("/api")
 public class HelloWorldController {
 
-    @GetMapping("/hello")
+    @GetMapping("/")
     public String sayHello() {
-        return "Hello, world!";
+        return "Hello, world! this is app service poc";
     }
 }
 
